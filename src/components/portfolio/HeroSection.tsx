@@ -66,15 +66,16 @@ const HeroSection = () => {
           
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-12 animate-scale-in" style={{ animationDelay: '0.8s' }}>
-            <Button variant="ghost" size="icon" className="hover:scale-110 transition-bounce">
-              <Github className="h-6 w-6" />
-            </Button>
+            <a href="https://www.linkedin.com/in/animireddy-sai-gowtham-a36ba525b/" target="_blank" rel="noopener noreferrer">
             <Button variant="ghost" size="icon" className="hover:scale-110 transition-bounce">
               <Linkedin className="h-6 w-6" />
             </Button>
+            </a>
+            <a href="mailto:saigowtham9666@gmail.com">
             <Button variant="ghost" size="icon" className="hover:scale-110 transition-bounce">
               <Mail className="h-6 w-6" />
             </Button>
+            </a>
           </div>
           
           {/* Scroll Indicator */}
