@@ -58,10 +58,12 @@ const HeroSection = () => {
               <Mail className="mr-2 h-5 w-5" />
               Get In Touch
             </Button>
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" size="lg" className="hover:shadow-elegant transition-smooth">
               <Download className="mr-2 h-5 w-5" />
               Download Resume
             </Button>
+            </a>
           </div>
           
           {/* Social Links */}
